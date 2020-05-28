@@ -9,3 +9,6 @@ print(int_func(‘text’)) -> Text.
 
 """
 
+int_func = lambda words: print(words.title())
+
+int_func(input('Введите строку: '))

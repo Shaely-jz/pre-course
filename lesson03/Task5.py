@@ -21,7 +21,7 @@ def insert_sum(*args):
 
 user_sum = 0
 while True:
-    user_input = input('Введите числа через пробел: ').split(' ')
+    user_input = input('Введите числа через пробел: ').split()
     result_sum, user_exit = insert_sum(*user_input)
     user_sum += result_sum
     print('Сумма введённых чисел: ', user_sum)

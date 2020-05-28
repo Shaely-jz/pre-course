@@ -15,7 +15,9 @@ while True:
 
 def my_func(x, y):
     try:
-        return x / y
+        my_division = x / y
+        return my_division
     except ZeroDivisionError:
         return 'Деление на ноль'
 
+print(my_func(x, y))
